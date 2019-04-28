@@ -24,7 +24,7 @@ header {
 #free-daily-horoscopes, #free-weekly-horoscopes, #free-monthly-horoscopes, #zodiac-sign-compatibility, #astrology-charts, #angel-readings, #animal-medicine-cards, #archangels, #astrocartography, #crystal-ball-fortune-teller, #ecards, #goddess-oracle-readings, #goddess-pantheon, #numerology, #past-life-report, #personality-types, #tarot-card-readings, #view-cart, #angels, #astrocartography, #astrology,#goddesses, #numerology, #psychics, #reincarnation-karma{
   font-size: .65rem;
   letter-spacing: 1px;
-  line-height: 1;
+  line-height: 1px;
 }
 
 a {
@@ -36,10 +36,10 @@ a {
 p {
   font-family: 'Montserrat', sans-serif;
   font-size: .8rem;
-  letter-spacing: 2px;
   font-weight: 300;
   letter-spacing: .5px;
   line-height: 2;
+  /* padding-top: 22px; */
 }
 
 ul {
@@ -48,6 +48,7 @@ ul {
 
 .menu-horoscopes {
   font-size: .65rem;
+  background:#f7faff;
   letter-spacing: 2px;
   line-height: 1;
   text-transform: uppercase;
@@ -104,22 +105,25 @@ a:active {
   padding-bottom: 5px;
   border-bottom: 1px solid rgb(236, 235, 236);
 }
-
+main {
+  position: relative;
+  margin: auto;
+  width: 95%;
+  height:auto;
+}
 .menu-main li {
   display: inline-block;
   margin: 15px 10px;
 }
 
 .main-content-area {
-  width: 53%;
+  width: 65%;
   height: auto;
   float: left;
-  margin-top:53px;
-}
+  margin-top: 65px;}
 
 .left-nav-area {
   width: 25%;
-  height: auto;
   float: left;
   margin: 50px
 }
@@ -161,9 +165,8 @@ h2 {
 
 .menu-left li a {
   font-family: 'Montserrat', sans-serif;
-  font-size: .75rem;
+  font-size: .9rem;
   color: #7d7d7d;
-  margin: 0 10px;
 }
 .menu-left li:nth-child(2),.menu-left li:nth-child(11) {
   margin-bottom:20px;
@@ -173,7 +176,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   text-transform: uppercase;
-  margin:0 10px;
+  /* margin:0 10px; */
 }
 
 .yellow-title-background {
@@ -185,4 +188,54 @@ h3 {
 
 .lt-blue-title-background {
   background: #eaf0f9;
+}
+footer {
+  clear: both;
+  position: relative;
+  margin: auto;
+  width: 95%;
+  height:auto;
+}
+.footer-nav-container{
+  margin: auto;
+  width: 75%;
+}
+#footer-nav-menu-left {
+    /* margin: 50px; */
+    width:33%;
+    display: inline-block
+}
+#footer-nav-menu-left ul {
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+}
+
+.menu-bottom li {
+  text-align: left;
+  line-height: 30px;
+}
+
+.menu-bottom li a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .75rem;
+  color: #7d7d7d;
+  /* margin: 0 10px; */
+}
+#footer-nav-menu-middle {
+    /* margin: 50px; */
+    width:33%;
+    display: inline-block
+}
+#footer-nav-menu-middle ul {
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+}
+#footer-nav-menu-right {
+    /* margin: 50px; */
+    width:33%;
+    display: inline-block
+}
+#footer-nav-menu-right ul {
+  font-size: 0.75rem;
+  letter-spacing: 2px;
 }
