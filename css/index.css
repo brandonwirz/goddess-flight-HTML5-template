@@ -31,6 +31,9 @@ header {
   line-height: 1px;
 } */
 
+.navMenu {
+    display: none;
+  }
 a {
   text-rendering: optimizeLegibility;
   font-family: 'Poppins', sans-serif;
@@ -44,6 +47,10 @@ p {
   letter-spacing: .5px;
   line-height: 2;
   /* padding: 18px 0px; */
+}
+/* hide hamburger menu */
+.fa {
+  display:none;
 }
 
 ul {
@@ -279,6 +286,43 @@ footer {
 
 
 @media screen and (max-width:1024px) {
+
+/* .fa {
+    z-index:99;
+    position: relative;
+    color: #222222;
+    display: block;
+  } */
+/* #top-menu, #nav-menu {
+  display:none;
+} */
+.navMenu {
+    cursor: pointer;
+    text-align: center;
+    color: #444444;
+    display: block;
+    margin:auto;
+    font-size: 1.15rem;
+    padding-top: 40px;
+  }
+
+.hamburger-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size:.8rem;
+
+}
+.menu-horoscopes, .menu-main {
+  display:none;
+}
+.nav-open {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+  background: white;
+
+}
   footer {
     width: 95%;
   }
