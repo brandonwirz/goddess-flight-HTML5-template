@@ -4,9 +4,9 @@
 * {
   box-sizing: border-box;
 }
-
-body {
-  /* color: #0c0d4c; */
+hr{
+   border-color:lightgrey;
+ /* background-color: red; */
 }
 
 header {
@@ -16,16 +16,20 @@ header {
   color: #0c0d4c;
   font-size: .7rem;
   letter-spacing: 2px;
-  padding: 8px 20px;
+  padding: 15px 20px;
   text-align: center;
   text-transform: uppercase;
 }
+.featured-image {
+    width: 100%;
+    padding-bottom: 30px;
+}
 
-#free-daily-horoscopes, #free-weekly-horoscopes, #free-monthly-horoscopes, #zodiac-sign-compatibility, #astrology-charts, #angel-readings, #animal-medicine-cards, #archangels, #astrocartography, #crystal-ball-fortune-teller, #ecards, #goddess-oracle-readings, #goddess-pantheon, #numerology, #past-life-report, #personality-types, #tarot-card-readings, #view-cart, #angels, #astrocartography, #astrology,#goddesses, #numerology, #psychics, #reincarnation-karma{
+/* #free-daily-horoscopes, #free-weekly-horoscopes, #free-monthly-horoscopes, #zodiac-sign-compatibility, #astrology-charts, #angel-readings, #animal-medicine-cards, #archangels, #astrocartography, #crystal-ball-fortune-teller, #ecards, #goddess-oracle-readings, #goddess-pantheon, #numerology, #past-life-report, #personality-types, #tarot-card-readings, #view-cart, #angels, #astrocartography, #astrology,#goddesses, #numerology, #psychics, #reincarnation-karma{
   font-size: .65rem;
   letter-spacing: 1px;
   line-height: 1px;
-}
+} */
 
 a {
   text-rendering: optimizeLegibility;
@@ -35,11 +39,11 @@ a {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: .8rem;
+  font-size: .95rem;
   font-weight: 300;
   letter-spacing: .5px;
   line-height: 2;
-  /* padding-top: 22px; */
+  /* padding: 18px 0px; */
 }
 
 ul {
@@ -87,7 +91,7 @@ a:active {
   font-family: 'Playfair Display', serif;
   margin: 0;
   padding: 0;
-  font-size: 2.35rem;
+  font-size: 2.75rem;
   letter-spacing: 2px;
   line-height: 1;
   text-transform: uppercase;
@@ -101,7 +105,7 @@ a:active {
   margin: 0 auto;
   padding: 0;
   text-align: center;
-  width: 100%;
+  width: 93%;
   padding-bottom: 5px;
   border-bottom: 1px solid rgb(236, 235, 236);
 }
@@ -118,20 +122,33 @@ main {
 
 .main-content-area {
   width: 65%;
+  padding-left: 0px;
   height: auto;
-  float: left;
-  margin-top: 65px;}
+  float: right;
+  margin: 65px 20px 0 0;
+}
+
+blockquote {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .95rem;
+  font-weight: 300;
+  letter-spacing: .5px;
+  line-height: 2;
+}
+
 
 .left-nav-area {
   width: 25%;
   float: left;
-  margin: 50px
+  margin: 50px 0 0 20px;
 }
 
 .display-none {
   display: none;
 }
-
+#home {
+  padding-bottom: 50px;
+}
 /* h1 {
   font-family: 'Playfair Display', serif;
   font-size: 2.=rem;
@@ -165,7 +182,7 @@ h2 {
 
 .menu-left li a {
   font-family: 'Montserrat', sans-serif;
-  font-size: .9rem;
+  font-size: .8rem;
   color: #7d7d7d;
 }
 .menu-left li:nth-child(2),.menu-left li:nth-child(11) {
@@ -193,23 +210,29 @@ footer {
   clear: both;
   position: relative;
   margin: auto;
-  width: 95%;
+  padding-top: 50px;
+  max-width: 100%;
   height:auto;
+  border-top:1px solid rgb(240, 236, 240)
 }
 .footer-nav-container{
   margin: auto;
-  width: 75%;
+  width: 85%;
+  padding: 0 0 50px 52px;
 }
 #footer-nav-menu-left {
     /* margin: 50px; */
-    width:33%;
+    width:31%;
     display: inline-block
 }
 #footer-nav-menu-left ul {
   font-size: 0.75rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
+.menu-bottom {
+  width: 100%;
+}
 .menu-bottom li {
   text-align: left;
   line-height: 30px;
@@ -223,19 +246,89 @@ footer {
 }
 #footer-nav-menu-middle {
     /* margin: 50px; */
-    width:33%;
-    display: inline-block
+    width:31%;
+    display: inline-block;
+    vertical-align: top;
 }
 #footer-nav-menu-middle ul {
   font-size: 0.75rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 #footer-nav-menu-right {
     /* margin: 50px; */
-    width:33%;
-    display: inline-block
+    width:31%;
+    display: inline-block;
+    vertical-align: top;
 }
 #footer-nav-menu-right ul {
   font-size: 0.75rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+}
+.footer-copyright {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f6fe;
+    font-weight: 500;
+    color: #434343;
+    font-size: .7rem;
+    letter-spacing: 2px;
+    padding: 15px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+
+@media screen and (max-width:1024px) {
+  footer {
+    width: 95%;
+  }
+  .main-container {
+  }
+  .left-nav-area {
+    width: 95%;
+  }
+  .main-content-area {
+    width: 100%;
+    padding:10px;
+    height: auto;
+    float: left;
+    margin-top: 65px;
+  }
+  /* .footer-nav-container{
+    margin: auto;
+    width: 100%;
+    padding: 0%;
+  } */
+  .footer-nav-container{
+    width: 95%;
+    padding: 0;
+    margin: 50px 0 0 20px;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  #footer-nav-menu-left, #footer-nav-menu-middle, #footer-nav-menu-right{
+    display: block;
+    width: 100%;
+  }
+  footer h3 {
+    width:100%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:1rem;
+    /* background: lightgrey; */
+  }
+  .menu-bottom {
+    width: 100%;
+    padding: 0;
+}
+}
+@media screen and (max-width:420px) {
+  .menu-bottom {
+    width: 95%;
+    /* padding: 8%; */
+
+}
 }
