@@ -4,14 +4,15 @@
 * {
   box-sizing: border-box;
 }
+
 .tagline {
-    line-height: 15px;
+  line-height: 15px;
 }
 
 header {
   font-family: 'Poppins', sans-serif;
   background: #d6e5fc;
-  font-weight: 500;
+  font-weight: 400;
   color: #0c0d4c;
   font-size: .7rem;
   letter-spacing: 2px;
@@ -19,24 +20,26 @@ header {
   text-align: center;
   text-transform: uppercase;
 }
+
 .featured-image {
-    width: 100%;
-    padding-bottom: 30px;
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 .navMenu {
-    display: none;
-  }
-  hr{
-      border-color: #d3d3d333;
-      color: #eee;
-      height: .125%;
-  }
+  display: none;
+}
+
+hr {
+  border-color: #d3d3d333;
+  color: #eee;
+  height: .125%;
+}
 
 a {
   text-rendering: optimizeLegibility;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   transition: 0.2s;
 }
 
@@ -48,17 +51,13 @@ p {
   line-height: 2;
 }
 
-/* .fa {
-  display:none;
-} */
-
 ul {
   list-style-type: none;
 }
 
 .menu-horoscopes {
   font-size: .65rem;
-  background:#f7faff;
+  background: #f7faff;
   letter-spacing: 2px;
   line-height: 1;
   text-transform: uppercase;
@@ -73,15 +72,16 @@ ul {
   margin: 15px 10px;
 }
 
- a:link {
+a:link {
   color: #0c0d4c;
   text-decoration: none;
 }
+
 a:visited {
   color: #0c0d4c;
   text-decoration: none;
-
 }
+
 a:hover {
   color: #55c7cf;
 }
@@ -119,12 +119,14 @@ a:active {
   padding-bottom: 5px;
   border-bottom: 1px solid rgb(236, 235, 236);
 }
+
 main {
   position: relative;
   margin: auto;
   width: 95%;
-  height:auto;
+  height: auto;
 }
+
 .menu-main li {
   display: inline-block;
   margin: 15px 10px;
@@ -146,7 +148,6 @@ blockquote {
   line-height: 2;
 }
 
-
 .left-nav-area {
   width: 25%;
   float: left;
@@ -156,21 +157,20 @@ blockquote {
 .display-none {
   display: none;
 }
+
 #home {
   padding-bottom: 60px;
 }
+
 h1 {
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
 }
+
 h2 {
   font-family: 'Playfair Display', serif;
-  margin:0;
+  margin: 0;
 }
-/* h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2rem;
-} */
 
 #left-nav-menu ul {
   font-size: 0.75rem;
@@ -193,24 +193,25 @@ h2 {
   font-size: .8rem;
   color: #7d7d7d;
 }
+
 .menu-left li a:hover {
   color: #55c7cf;
-
 }
-.menu-left li:nth-child(2),.menu-left li:nth-child(11) {
-  margin-bottom:20px;
+
+.menu-left li:nth-child(2), .menu-left li:nth-child(11) {
+  margin-bottom: 20px;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   text-transform: uppercase;
-  /* margin:0 10px; */
 }
 
 .yellow-title-background {
   background: #fff7e1;
 }
+
 .pink-title-background {
   background: #fff4f0;
 }
@@ -218,25 +219,29 @@ h3 {
 .lt-blue-title-background {
   background: #eaf0f9;
 }
+
 footer {
   clear: both;
   position: relative;
   margin: auto;
   padding-top: 50px;
   max-width: 100%;
-  height:auto;
-  border-top:1px solid rgb(240, 236, 240)
+  height: auto;
+  border-top: 1px solid rgb(240, 236, 240)
 }
-.footer-nav-container{
+
+.footer-nav-container {
   margin: auto;
   width: 85%;
   padding: 0 0 50px 52px;
 }
+
 #footer-nav-menu-left {
-    /* margin: 50px; */
-    width:31%;
-    display: inline-block
+  /* margin: 50px; */
+  width: 31%;
+  display: inline-block
 }
+
 #footer-nav-menu-left ul {
   font-size: 0.75rem;
   letter-spacing: 1px;
@@ -245,6 +250,7 @@ footer {
 .menu-bottom {
   width: 100%;
 }
+
 .menu-bottom li {
   text-align: left;
   line-height: 30px;
@@ -254,141 +260,177 @@ footer {
   font-family: 'Montserrat', sans-serif;
   font-size: .75rem;
   color: #7d7d7d;
-  /* margin: 0 10px; */
 }
+
 .menu-bottom li a:hover {
   color: #55c7cf;
 }
 
 #footer-nav-menu-middle {
-    /* margin: 50px; */
-    width:31%;
-    display: inline-block;
-    vertical-align: top;
+  width: 31%;
+  display: inline-block;
+  vertical-align: top;
 }
+
 #footer-nav-menu-middle ul {
   font-size: 0.75rem;
   letter-spacing: 1px;
 }
+
 #footer-nav-menu-right {
-    /* margin: 50px; */
-    width:31%;
-    display: inline-block;
-    vertical-align: top;
+  width: 31%;
+  display: inline-block;
+  vertical-align: top;
 }
+
 #footer-nav-menu-right ul {
   font-size: 0.75rem;
   letter-spacing: 1px;
 }
+
 .footer-copyright {
-    font-family: 'Poppins', sans-serif;
-    background: #f0f6fe;
-    font-weight: 500;
-    color: #434343;
-    font-size: .7rem;
-    letter-spacing: 2px;
-    padding: 15px 20px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: #f0f6fe;
+  font-weight: 400;
+  color: #434343;
+  font-size: .7rem;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 
 @media screen and (max-width:1024px) {
+  #home {
+    padding-bottom: 30px;
+  }
+
   nav#top-menu {
     margin: auto;
-
   }
+
+  nav#nav-menu {
+    margin: auto;
+    width: 92%;
+  }
+
   #nav-menu ul {
     width: 100%;
-}
-.navMenu {
+    padding: 0 5px;
+  }
+
+  .navMenu {
     cursor: pointer;
     text-align: center;
     color: #444444;
     display: block;
-    margin:auto;
+    margin: auto;
     font-size: 1.15rem;
     padding-top: 10px;
     width: 20%;
     transition: .2s;
     -webkit-font-smoothing: antialiased;
   }
-.navMenu:hover {
-  background-color: #fff;
-  border-width: 0;
-  color: #55c7cf;
-}
-.hamburger-text {
-  position: absolute;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size:.8rem;
-  text-transform: uppercase;
-  margin: 4px 0 0 5px;
-}
-.menu-horoscopes, .menu-main {
-  display:none;
-}
-.nav-open {
-  display: block;
-  float: left;
-  width: 100%;
-  margin-bottom: 30px;
-  background: white;
 
-}
-footer {
-    width: 95%;
-    border:none;
-    padding-top: 1px;
-    margin:102px auto 0;
+  .navMenu:hover {
+    background-color: #fff;
+    border-width: 0;
+    color: #55c7cf;
   }
-  .main-container {
+
+  .hamburger-text {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    text-transform: uppercase;
+    margin: 4px 0 0 5px;
   }
-  .left-nav-area, .footer-nav-container {
+
+  .menu-horoscopes, .menu-main {
+    display: none;
+  }
+
+  .nav-open {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    background: white;
+  }
+
+  .left-nav-area {
+    width: 97%;
+    padding: 0 0 45px 0;
+    margin: 0px 0px 0 10px;
+    border-bottom: 1px solid rgb(240, 236, 240);
+  }
+
+  .footer-nav-container {
+    width: 97%;
     width: 97%;
     margin: 0px 0px 0 10px;
-      padding:0 0 40px 0;
+    padding: 0 0 40px 0;
   }
+
   .main-content-area {
     width: 100%;
-    padding:10px;
+    padding: 10px;
     height: auto;
     float: left;
     margin-top: 15px;
   }
 
+  footer {
+    width: 95%;
+    border: none;
+    padding-top: 50px;
+    margin: 102px auto 0;
+  }
 }
 
+
 @media screen and (max-width:768px) {
-  #footer-nav-menu-left, #footer-nav-menu-middle, #footer-nav-menu-right{
+  #footer-nav-menu-left, #footer-nav-menu-middle, #footer-nav-menu-right {
     display: block;
     width: 100%;
   }
+
   footer h3 {
-    width:100%;
-    font-family: 'Montserrat', sans-serif;
+    width: 100%;
     text-align: center;
-    text-transform: uppercase;
-    font-size:1rem;
-    /* background: lightgrey; */
   }
+
   .menu-bottom {
-    width: 97%;
+    width: 100%;
     padding: 0;
   }
 }
+
+
 @media screen and (max-width:420px) {
   .menu-bottom {
     width: 100%;
-    /* padding: 8%; */
-}
-.main-content-area {
-  width: 100%;
-  /* padding: 10px; */
-  height: auto;
-  float: left;
-  margin-top: 0px;
+  }
+
+  .main-content-area {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 0px;
+  }
+
+  .left-nav-area, .footer-nav-container {
+    width: 94%;
+  }
+
+  .left-nav-area {
+    padding: 0 0 25px 0;
+  }
+
+  footer {
+    padding-top: 25px;
   }
 }
