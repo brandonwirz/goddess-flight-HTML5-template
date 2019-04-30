@@ -27,17 +27,13 @@ header {
   width: 100%;
   padding-bottom: 30px;
 }
-/* .fa, .fas {
-    font-weight: 900;
-    padding: 0px 4px;
-    color: #0c0d4c;
-    transition: 0.2s;
-} */
 
+ul#nav2 {
+    padding: 0;
+}
 .navMenu {
   display: none;
 }
-
 
 .top-icon{
      z-index:2
@@ -438,7 +434,7 @@ footer {
     width: 97%;
     width: 97%;
     margin: 0px 0px 0 10px;
-    padding: 0 0 40px 0;
+    padding: 0 0 0px 0;
   }
 
   .main-content-area {
