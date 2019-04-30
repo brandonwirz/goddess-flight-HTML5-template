@@ -8,7 +8,9 @@
 .tagline {
   line-height: 15px;
 }
-
+/* .view-cart {
+  text-decoration: underline;
+} */
 header {
   font-family: 'Poppins', sans-serif;
   background: #d6e5fc;
@@ -25,17 +27,53 @@ header {
   width: 100%;
   padding-bottom: 30px;
 }
+/* .fa, .fas {
+    font-weight: 900;
+    padding: 0px 4px;
+    color: #0c0d4c;
+    transition: 0.2s;
+} */
 
 .navMenu {
   display: none;
 }
+
+
+.top-icon{
+     z-index:2
+}
+
+#up-icon {
+  position: fixed;
+  bottom: 25px;
+  z-index: 99;
+  padding-left: 3px;
+  right: 25px;
+  cursor: pointer;
+  width: 40px;
+  color: #fafafb;
+  height: 40px;
+  /* border-radius: 50px; */
+  font-size: 1.7rem;
+  vertical-align: 0%;
+  height: 30px;
+  width: 30px;
+  background-color: rgba(46, 80, 173, 0.32);
+}
+
 
 hr {
   border-color: #d3d3d333;
   color: #eee;
   height: .125%;
 }
-
+.view-cart {
+  content:"/f07a";
+  text-rendering: optimizeLegibility;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  transition: 0.2s;
+}
 a {
   text-rendering: optimizeLegibility;
   font-family: 'Poppins', sans-serif;
@@ -82,9 +120,10 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,.fa:hover, .fas:hover {
   color: #55c7cf;
 }
+
 
 a:active {
   color: #20288f;
@@ -113,10 +152,8 @@ a:active {
   line-height: 1;
   text-transform: uppercase;
   margin: 0 auto;
-  padding: 0;
   text-align: center;
   width: 93%;
-  padding-bottom: 5px;
   border-bottom: 1px solid rgb(236, 235, 236);
 }
 
@@ -318,7 +355,7 @@ footer {
 
   #nav-menu ul {
     width: 100%;
-    padding: 0 5px;
+    padding: 0 5px 20px;
   }
 
   .navMenu {
@@ -328,10 +365,11 @@ footer {
     display: block;
     margin: auto;
     font-size: 1.15rem;
-    padding-top: 10px;
+    padding: 21px 43px 0 0;
     width: 20%;
     transition: .2s;
     -webkit-font-smoothing: antialiased;
+
   }
 
   .navMenu:hover {
@@ -351,16 +389,44 @@ footer {
 
   .menu-horoscopes, .menu-main {
     display: none;
+    padding: 0 0 20px 0;
   }
-
-  .nav-open {
-    display: block;
-    float: left;
-    width: 100%;
-    margin-bottom: 30px;
+/* using flexbox */
+.menu-horoscopes li {
+  display: flex;
+}
+.nav-open {
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 12px;
     background: white;
   }
+/* .order {
+  order:3;
+} */
 
+.menu-horoscopes li:nth-child(2) {
+    order: 2;
+}
+.menu-horoscopes li:nth-child(3) {
+    order: 3;
+}
+.menu-horoscopes li:nth-child(4) {
+      order: 4;
+}
+.menu-horoscopes li:nth-child(5) {
+      order: 5;
+}
+.menu-horoscopes li:first-child(6) {
+ order: 6;
+}
+.menu-horoscopes li:nth-child(1) {
+   order: 1;
+}
   .left-nav-area {
     width: 97%;
     padding: 0 0 45px 0;
@@ -380,7 +446,7 @@ footer {
     padding: 10px;
     height: auto;
     float: left;
-    margin-top: 15px;
+    margin-top: 30px;
   }
 
   footer {
@@ -433,4 +499,8 @@ footer {
   footer {
     padding-top: 25px;
   }
+
+  /* .navMenu {
+    padding: 21px 43px 0 0;
+  } */
 }
